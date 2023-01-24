@@ -1,4 +1,4 @@
-## Actividad 1 <img src="https://tenor.com/bVBnb.gif" alt="drawing" width="30"/>
+## Actividad 1 <img src="https://tenor.com/bmDGP.gif" alt="drawing" width="30"/>
 - Melani Alejandra López de la Roca -- 201900172
 
 # Tipos de Kernel y sus Diferencias 
@@ -38,5 +38,5 @@ En este diagrama se muestra la comunicación entre los componentes de modo usuar
 ![](https://learn.microsoft.com/es-es/windows-hardware/drivers/gettingstarted/images/userandkernelmode01.png) 
 
 
-[**Referencia_Kernel**](https://www.ionos.es/digitalguide/servidores/know-how/que-es-el-kernel/)
+[**Referencia_Kernel**](https://www.ionos.es/digitalguide/servidores/know-how/que-es-el-kernel/)  
 [**Referencia_Modos**](https://learn.microsoft.com/es-es/windows-hardware/drivers/gettingstarted/user-mode-and-kernel-mode)
