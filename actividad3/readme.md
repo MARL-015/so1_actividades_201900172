@@ -67,4 +67,7 @@ FROM nginx:1.22.1-alpine as runner
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=compilacion /opt/app/build /usr/share/nginx/html
 
+# Exponer el puerto 80 y ejecutar nginx
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
 ```
