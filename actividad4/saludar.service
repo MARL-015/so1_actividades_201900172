@@ -1,0 +1,9 @@
+[Unit] 
+Description=Imprimir Saludo  
+    
+[Service]
+Type=simple 
+ExecStart=/home/linux/Escritorio/Actividades/saludo.sh 
+    
+[Install] 
+WantedBy=multi-user.target 

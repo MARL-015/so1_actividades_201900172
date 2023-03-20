@@ -1,5 +1,7 @@
 # Actividad 4
 #### ***201900172***
+
+Crear un systemd unit de tipo servicio para ejecutar un script que imprima un saludo y la fecha actual.
 ### Proceso de instalación tipo servicio systemd unit
 
 Systemd es un conjunto de daemons de administración del sistema Linux estandarización de la mayoría de distribuciones de Debian y Red Hat, bibliotecas y herramientas diseñados como una plataforma de administración y configuración central para interactuar con el núcleo del Sistema operativo GNU/Linux.
@@ -25,8 +27,9 @@ Systemd es un conjunto de daemons de administración del sistema Linux estandari
     [Unit] 
     Description=Imprimir Saludo  
     
-    [Service] 
-    ExecStart=/ruta/al/script/saludo.sh 
+    [Service]
+    Type=simple 
+    ExecStart=/home/linux/Escritorio/Actividades/saludo.sh 
     
     [Install] 
     WantedBy=multi-user.target  
